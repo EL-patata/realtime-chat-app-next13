@@ -1,22 +1,22 @@
-import Providers from '@/components/Providers'
-import './globals.css'
+import Providers from '@/components/Providers';
+import './globals.css';
 
 // Done after the video and optional: add page metadata
 export const metadata = {
-  title: 'FriendZone | Home',
-  description: 'Welcome to the FriendZone',
-}
+	title: 'ZUCCSUCC',
+	description: 'Welcome to the ZuccSucc',
+};
 
 export default function RootLayout({
-  children,
+	children,
 }: {
-  children: React.ReactNode
+	children: React.ReactNode;
 }) {
-  return (
-    <html lang='en'>
-      <body>
-        <Providers>{children}</Providers>
-      </body>
-    </html>
-  )
+	return (
+		<html lang="en">
+			<body>
+				<Providers>{children}</Providers>
+			</body>
+		</html>
+	);
 }
